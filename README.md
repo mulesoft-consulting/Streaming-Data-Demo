@@ -11,7 +11,9 @@ Streaming Documentation:
 Setup:
 
 You will need to modify the File Config element in the global.xml to whatever output/input
-folders you would like to use.  The file used in this demo can be found in src/main/resources. (Example Student File.json)
+folders you would like to use.  The file used in this demo can be found here:
+
+https://drive.google.com/file/d/1VW_rw5LM2U-i_3GS00YmkXcNfA-nsaT6/view?usp=sharing
 
 When running this demo locally, you can modify the runtime arguments to utilize less
 memory than the size of the test file.  This will demonstrate and prove the app is streaming.

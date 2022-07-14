@@ -1,0 +1,789 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Body>
+      <wd:Get_Students_Response wd:version="v36.1" xmlns:wd="urn:com.workday/bsvc">
+         <wd:Request_References>
+            <wd:Student_Reference wd:Descriptor="Exmaple Student">
+               <wd:ID wd:type="WID">e27753f9454c81444253f42eb00xxxx</wd:ID>
+               <wd:ID wd:type="Academic_Person_ID">STUDENT-3-3XXXX</wd:ID>
+               <wd:ID wd:type="Student_ID">A99999999</wd:ID>
+            </wd:Student_Reference>
+         </wd:Request_References>
+         <wd:Response_Filter>
+            <wd:Page>1</wd:Page>
+            <wd:Count>100</wd:Count>
+         </wd:Response_Filter>
+         <wd:Response_Group>
+            <wd:Include_Program_of_Study_Record_Data>1</wd:Include_Program_of_Study_Record_Data>
+            <wd:Include_Registered_Registration_Data>1</wd:Include_Registered_Registration_Data>
+         </wd:Response_Group>
+         <wd:Response_Results>
+            <wd:Total_Results>1</wd:Total_Results>
+            <wd:Total_Pages>1</wd:Total_Pages>
+            <wd:Page_Results>1</wd:Page_Results>
+            <wd:Page>1</wd:Page>
+         </wd:Response_Results>
+         <wd:Response_Data>
+            <wd:Student>
+               <wd:Student_Data>
+                  <wd:ID>STUDENT-3-3XXXX</wd:ID>
+                  <wd:Student_ID>A99999999</wd:Student_ID>
+                  <wd:Universal_ID>UID2XXXXX</wd:Universal_ID>
+                  <wd:Account_User_Name>UID2XXXXX</wd:Account_User_Name>
+                  <wd:Other_Student_Information_Data>
+                     <wd:First_Generation_Data>
+                        <wd:First_Generation_College_Student>1</wd:First_Generation_College_Student>
+                     </wd:First_Generation_Data>
+                  </wd:Other_Student_Information_Data>
+                  <wd:Financial_Aid_Record_for_Student_Data>
+                     <wd:Financial_Aid_Record_Secured_Reference wd:Descriptor="Example Student - Palm Beach State College - Associate in Arts (AA) Major">
+                        <wd:ID wd:type="WID">23a9edba769e81742e81133cd800c53c</wd:ID>
+                        <wd:ID wd:type="Financial_Aid_Record_ID">FINANCIAL_AID_RECORD-3-24984</wd:ID>
+                     </wd:Financial_Aid_Record_Secured_Reference>
+                     <wd:Academic_Record_for_Student_Data>
+                        <wd:Academic_Record_Secured_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active">
+                           <wd:ID wd:type="WID">babdd184a55f812f31cc335fc4406205</wd:ID>
+                           <wd:ID wd:type="Student_Record_ID">A16872475_AcadRecord_undergraduate</wd:ID>
+                        </wd:Academic_Record_Secured_Reference>
+                        <wd:Student_Record_Status_Reference wd:Descriptor="Active">
+                           <wd:ID wd:type="WID">4ff81f83ffcd100017f9d04913677673</wd:ID>
+                           <wd:ID wd:type="Student_Record_Status_ID">ACTIVE</wd:ID>
+                        </wd:Student_Record_Status_Reference>
+                        <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                           <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                           <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                        </wd:Academic_Unit_Reference>
+                        <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                           <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                           <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                        </wd:Academic_Level_Reference>
+                        <wd:Student_Program_of_Study_Record_Data>
+                           <wd:Program_of_Study_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - Associate in Arts (AA) Major">
+                              <wd:ID wd:type="WID">babdd184a55f815ae9e0345fc4406505</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_ID">ACTIVE_STUDENT_PROGRAM_OF_STUDY_RECORD-3-17620</wd:ID>
+                           </wd:Program_of_Study_Record_Reference>
+                           <wd:Program_of_Study_Type_Reference wd:Descriptor="Major">
+                              <wd:ID wd:type="WID">42cffe9e9eb2015b8780adf16800174e</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_Type_ID">Major</wd:ID>
+                           </wd:Program_of_Study_Type_Reference>
+                           <wd:Program_of_Study_Reference wd:Descriptor="Associate in Arts (AA) Major">
+                              <wd:ID wd:type="WID">42cffe9e9eb201a6c4402ac06a007057</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_ID">PROGRAM_OF_STUDY_1000</wd:ID>
+                           </wd:Program_of_Study_Reference>
+                           <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                              <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                              <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                           </wd:Academic_Unit_Reference>
+                           <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                              <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                              <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                           </wd:Academic_Level_Reference>
+                           <wd:Program_of_Study_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Associate">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2013079ad6d0969008c50</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">Associates</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Program Category">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2010f2cedf6f86800aa4e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-1</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Post-Secondary Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec62601ceb4bb1a481601bb6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">PS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (PS)">
+                                    <wd:ID wd:type="WID">aca9c89ec6260189a1d819481601ba6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-5</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="High School Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec626017a65121b481601bd6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">HS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (HS)">
+                                    <wd:ID wd:type="WID">aca9c89ec62601872bec1a481601bc6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-4</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                           </wd:Program_of_Study_Area_Subedit_Data>
+                           <wd:Educational_Credentials_Reference wd:Descriptor="AA - Associate in Arts Degree">
+                              <wd:ID wd:type="WID">42cffe9e9eb2010a083bffed6800f94d</wd:ID>
+                              <wd:ID wd:type="Educational_Credential_ID">AA</wd:ID>
+                           </wd:Educational_Credentials_Reference>
+                           <wd:Student_Program_of_Study_Record_Status_Reference wd:Descriptor="In Progress">
+                              <wd:ID wd:type="WID">d8694c8e2f33100009872c816b440063</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_Status_ID">IN_PROGRESS</wd:ID>
+                           </wd:Student_Program_of_Study_Record_Status_Reference>
+                           <wd:Declare_Date>2021-01-01</wd:Declare_Date>
+                           <wd:Expected_Completion_Date>2022-08-09</wd:Expected_Completion_Date>
+                           <wd:Requirements_Effective>2021-08-15</wd:Requirements_Effective>
+                        </wd:Student_Program_of_Study_Record_Data>
+                        <wd:Student_Program_of_Study_Record_Data>
+                           <wd:Program_of_Study_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - Marketing Management Major">
+                              <wd:ID wd:type="WID">a24431ad10bf81c8c83afb5800024f9a</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_ID">ACTIVE_STUDENT_PROGRAM_OF_STUDY_RECORD-3-696600</wd:ID>
+                           </wd:Program_of_Study_Record_Reference>
+                           <wd:Program_of_Study_Type_Reference wd:Descriptor="Major">
+                              <wd:ID wd:type="WID">42cffe9e9eb2015b8780adf16800174e</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_Type_ID">Major</wd:ID>
+                           </wd:Program_of_Study_Type_Reference>
+                           <wd:Program_of_Study_Reference wd:Descriptor="Marketing Management Major">
+                              <wd:ID wd:type="WID">9d994d5467ca0114848ac614a5017d78</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_ID">PROGRAM_OF_STUDY_2065</wd:ID>
+                           </wd:Program_of_Study_Reference>
+                           <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                              <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                              <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                           </wd:Academic_Unit_Reference>
+                           <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                              <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                              <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                           </wd:Academic_Level_Reference>
+                           <wd:Program_of_Study_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Associate">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2013079ad6d0969008c50</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">Associates</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Program Category">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2010f2cedf6f86800aa4e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-1</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Post-Secondary Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec62601ceb4bb1a481601bb6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">PS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (PS)">
+                                    <wd:ID wd:type="WID">aca9c89ec6260189a1d819481601ba6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-5</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="High School Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec626017a65121b481601bd6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">HS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (HS)">
+                                    <wd:ID wd:type="WID">aca9c89ec62601872bec1a481601bc6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-4</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                           </wd:Program_of_Study_Area_Subedit_Data>
+                           <wd:Educational_Credentials_Reference wd:Descriptor="AS - Associate in Science Degree">
+                              <wd:ID wd:type="WID">42cffe9e9eb20119ea0dffed6800f84d</wd:ID>
+                              <wd:ID wd:type="Educational_Credential_ID">AS</wd:ID>
+                           </wd:Educational_Credentials_Reference>
+                           <wd:Student_Program_of_Study_Record_Status_Reference wd:Descriptor="In Progress">
+                              <wd:ID wd:type="WID">d8694c8e2f33100009872c816b440063</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_Status_ID">IN_PROGRESS</wd:ID>
+                           </wd:Student_Program_of_Study_Record_Status_Reference>
+                           <wd:Declare_Date>2021-08-15</wd:Declare_Date>
+                           <wd:Expected_Completion_Date>2022-08-09</wd:Expected_Completion_Date>
+                        </wd:Student_Program_of_Study_Record_Data>
+                        <wd:Student_Program_of_Study_Record_Data>
+                           <wd:Program_of_Study_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - Business Career Pathway">
+                              <wd:ID wd:type="WID">b5dd5f96a5768101e9452202d7af0001</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_ID">ACTIVE_STUDENT_PROGRAM_OF_STUDY_RECORD-3-707880</wd:ID>
+                           </wd:Program_of_Study_Record_Reference>
+                           <wd:Program_of_Study_Type_Reference wd:Descriptor="Concentration">
+                              <wd:ID wd:type="WID">42cffe9e9eb201337081acf16800164e</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_Type_ID">Concentration</wd:ID>
+                           </wd:Program_of_Study_Type_Reference>
+                           <wd:Program_of_Study_Reference wd:Descriptor="Business Career Pathway">
+                              <wd:ID wd:type="WID">910cb96c1e0b01a7c068d4fbde05c0b8</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_ID">PROGRAM_OF_STUDY-3-457</wd:ID>
+                           </wd:Program_of_Study_Reference>
+                           <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                              <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                              <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                           </wd:Academic_Unit_Reference>
+                           <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                              <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                              <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                           </wd:Academic_Level_Reference>
+                           <wd:Program_of_Study_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Associate">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2013079ad6d0969008c50</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">Associates</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Program Category">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2010f2cedf6f86800aa4e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-1</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Post-Secondary Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec62601ceb4bb1a481601bb6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">PS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (PS)">
+                                    <wd:ID wd:type="WID">aca9c89ec6260189a1d819481601ba6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-5</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="High School Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec626017a65121b481601bd6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">HS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (HS)">
+                                    <wd:ID wd:type="WID">aca9c89ec62601872bec1a481601bc6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-4</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                           </wd:Program_of_Study_Area_Subedit_Data>
+                           <wd:Student_Program_of_Study_Record_Status_Reference wd:Descriptor="In Progress">
+                              <wd:ID wd:type="WID">d8694c8e2f33100009872c816b440063</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_Status_ID">IN_PROGRESS</wd:ID>
+                           </wd:Student_Program_of_Study_Record_Status_Reference>
+                           <wd:Declare_Date>2021-11-19</wd:Declare_Date>
+                           <wd:Expected_Completion_Date>2022-08-09</wd:Expected_Completion_Date>
+                        </wd:Student_Program_of_Study_Record_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - ENC 1101 - College Composition 1 - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">b9eae20dd6c481b53ec2283c52017433</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4197636</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="ENC 1101 - College Composition 1">
+                              <wd:ID wd:type="WID">42cffe9e9eb201d06c55c46172016a88</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_ENC1101_09/12/1930_ENC1101</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>3</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="ENC 1101-76 - College Composition 1">
+                                 <wd:ID wd:type="WID">0aede1f437a1017485a72e7f9c017c5c</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-362259</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-13T07:35:44.573-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Lecture">
+                                 <wd:ID wd:type="WID">adf67f69028010001731e69a013a2572</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Lecture</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - MAT 1033C - Intermediate Algebra - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">c71ab86e8ff481866af2bd3cb401ba5e</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4201182</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="MAT 1033C - Intermediate Algebra">
+                              <wd:ID wd:type="WID">42cffe9e9eb201060c26f769720198a2</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_MAT1033C_09/18/1939_MAT1033C</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>4</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="MAT 1033C-69 - Intermediate Algebra">
+                                 <wd:ID wd:type="WID">ee3317ba87d401211b25bab2c400fa13</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-365168</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-14T13:33:35.602-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Combination">
+                                 <wd:ID wd:type="WID">573c01a826b810000f0fee0804e5000b</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Combination</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - AMH 2020 - US History from 1865 to Present - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">0865271660a481bd4b3f1969b401855a</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4201384</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="AMH 2020 - US History from 1865 to Present">
+                              <wd:ID wd:type="WID">42cffe9e9eb201ace8c2e2f470011faf</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_AMH2020_01/29/1931_AMH2020</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>3</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="AMH 2020-1 - US History from 1865 to Present">
+                                 <wd:ID wd:type="WID">43cd6518270a01bf708b024abb00a00d</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-361545</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-14T13:36:02.381-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Lecture">
+                                 <wd:ID wd:type="WID">adf67f69028010001731e69a013a2572</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Lecture</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - MAR 2011 - Principles of Marketing - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">0865271660a4812be0d0e886b401945a</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4201385</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="MAR 2011 - Principles of Marketing">
+                              <wd:ID wd:type="WID">42cffe9e9eb2013d18994e697201c6a0</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_MAR2011_09/11/1944_MAR2011</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>3</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="MAR 2011-1 - Principles of Marketing">
+                                 <wd:ID wd:type="WID">bc2b61f49ea3014ed1e5f5a56901c842</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-361217</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-14T13:38:10.555-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Lecture">
+                                 <wd:ID wd:type="WID">adf67f69028010001731e69a013a2572</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Lecture</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                     </wd:Academic_Record_for_Student_Data>
+                  </wd:Financial_Aid_Record_for_Student_Data>
+                  <wd:Do_Not_Purge_Settings_Data>
+                     <wd:Do_Not_Purge>0</wd:Do_Not_Purge>
+                  </wd:Do_Not_Purge_Settings_Data>
+               </wd:Student_Data>
+               <wd:Student_Data>
+                  <wd:ID>STUDENT-1-1XXXX</wd:ID>
+                  <wd:Student_ID>A99999999</wd:Student_ID>
+                  <wd:Universal_ID>UID2XXXXX</wd:Universal_ID>
+                  <wd:Account_User_Name>UID2XXXXX</wd:Account_User_Name>
+                  <wd:Other_Student_Information_Data>
+                     <wd:First_Generation_Data>
+                        <wd:First_Generation_College_Student>1</wd:First_Generation_College_Student>
+                     </wd:First_Generation_Data>
+                  </wd:Other_Student_Information_Data>
+                  <wd:Financial_Aid_Record_for_Student_Data>
+                     <wd:Financial_Aid_Record_Secured_Reference wd:Descriptor="Example Student - Palm Beach State College - Associate in Arts (AA) Major">
+                        <wd:ID wd:type="WID">23a9edba769e81742e81133cd800c53c</wd:ID>
+                        <wd:ID wd:type="Financial_Aid_Record_ID">FINANCIAL_AID_RECORD-3-24984</wd:ID>
+                     </wd:Financial_Aid_Record_Secured_Reference>
+                     <wd:Academic_Record_for_Student_Data>
+                        <wd:Academic_Record_Secured_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active">
+                           <wd:ID wd:type="WID">babdd184a55f812f31cc335fc4406205</wd:ID>
+                           <wd:ID wd:type="Student_Record_ID">A16872475_AcadRecord_undergraduate</wd:ID>
+                        </wd:Academic_Record_Secured_Reference>
+                        <wd:Student_Record_Status_Reference wd:Descriptor="Active">
+                           <wd:ID wd:type="WID">4ff81f83ffcd100017f9d04913677673</wd:ID>
+                           <wd:ID wd:type="Student_Record_Status_ID">ACTIVE</wd:ID>
+                        </wd:Student_Record_Status_Reference>
+                        <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                           <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                           <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                        </wd:Academic_Unit_Reference>
+                        <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                           <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                           <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                        </wd:Academic_Level_Reference>
+                        <wd:Student_Program_of_Study_Record_Data>
+                           <wd:Program_of_Study_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - Associate in Arts (AA) Major">
+                              <wd:ID wd:type="WID">babdd184a55f815ae9e0345fc4406505</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_ID">ACTIVE_STUDENT_PROGRAM_OF_STUDY_RECORD-3-17620</wd:ID>
+                           </wd:Program_of_Study_Record_Reference>
+                           <wd:Program_of_Study_Type_Reference wd:Descriptor="Major">
+                              <wd:ID wd:type="WID">42cffe9e9eb2015b8780adf16800174e</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_Type_ID">Major</wd:ID>
+                           </wd:Program_of_Study_Type_Reference>
+                           <wd:Program_of_Study_Reference wd:Descriptor="Associate in Arts (AA) Major">
+                              <wd:ID wd:type="WID">42cffe9e9eb201a6c4402ac06a007057</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_ID">PROGRAM_OF_STUDY_1000</wd:ID>
+                           </wd:Program_of_Study_Reference>
+                           <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                              <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                              <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                           </wd:Academic_Unit_Reference>
+                           <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                              <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                              <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                           </wd:Academic_Level_Reference>
+                           <wd:Program_of_Study_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Associate">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2013079ad6d0969008c50</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">Associates</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Program Category">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2010f2cedf6f86800aa4e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-1</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Post-Secondary Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec62601ceb4bb1a481601bb6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">PS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (PS)">
+                                    <wd:ID wd:type="WID">aca9c89ec6260189a1d819481601ba6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-5</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="High School Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec626017a65121b481601bd6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">HS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (HS)">
+                                    <wd:ID wd:type="WID">aca9c89ec62601872bec1a481601bc6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-4</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                           </wd:Program_of_Study_Area_Subedit_Data>
+                           <wd:Educational_Credentials_Reference wd:Descriptor="AA - Associate in Arts Degree">
+                              <wd:ID wd:type="WID">42cffe9e9eb2010a083bffed6800f94d</wd:ID>
+                              <wd:ID wd:type="Educational_Credential_ID">AA</wd:ID>
+                           </wd:Educational_Credentials_Reference>
+                           <wd:Student_Program_of_Study_Record_Status_Reference wd:Descriptor="In Progress">
+                              <wd:ID wd:type="WID">d8694c8e2f33100009872c816b440063</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_Status_ID">IN_PROGRESS</wd:ID>
+                           </wd:Student_Program_of_Study_Record_Status_Reference>
+                           <wd:Declare_Date>2021-01-01</wd:Declare_Date>
+                           <wd:Expected_Completion_Date>2022-08-09</wd:Expected_Completion_Date>
+                           <wd:Requirements_Effective>2021-08-15</wd:Requirements_Effective>
+                        </wd:Student_Program_of_Study_Record_Data>
+                        <wd:Student_Program_of_Study_Record_Data>
+                           <wd:Program_of_Study_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - Marketing Management Major">
+                              <wd:ID wd:type="WID">a24431ad10bf81c8c83afb5800024f9a</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_ID">ACTIVE_STUDENT_PROGRAM_OF_STUDY_RECORD-3-696600</wd:ID>
+                           </wd:Program_of_Study_Record_Reference>
+                           <wd:Program_of_Study_Type_Reference wd:Descriptor="Major">
+                              <wd:ID wd:type="WID">42cffe9e9eb2015b8780adf16800174e</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_Type_ID">Major</wd:ID>
+                           </wd:Program_of_Study_Type_Reference>
+                           <wd:Program_of_Study_Reference wd:Descriptor="Marketing Management Major">
+                              <wd:ID wd:type="WID">9d994d5467ca0114848ac614a5017d78</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_ID">PROGRAM_OF_STUDY_2065</wd:ID>
+                           </wd:Program_of_Study_Reference>
+                           <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                              <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                              <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                           </wd:Academic_Unit_Reference>
+                           <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                              <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                              <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                           </wd:Academic_Level_Reference>
+                           <wd:Program_of_Study_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Associate">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2013079ad6d0969008c50</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">Associates</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Program Category">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2010f2cedf6f86800aa4e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-1</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Post-Secondary Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec62601ceb4bb1a481601bb6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">PS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (PS)">
+                                    <wd:ID wd:type="WID">aca9c89ec6260189a1d819481601ba6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-5</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="High School Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec626017a65121b481601bd6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">HS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (HS)">
+                                    <wd:ID wd:type="WID">aca9c89ec62601872bec1a481601bc6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-4</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                           </wd:Program_of_Study_Area_Subedit_Data>
+                           <wd:Educational_Credentials_Reference wd:Descriptor="AS - Associate in Science Degree">
+                              <wd:ID wd:type="WID">42cffe9e9eb20119ea0dffed6800f84d</wd:ID>
+                              <wd:ID wd:type="Educational_Credential_ID">AS</wd:ID>
+                           </wd:Educational_Credentials_Reference>
+                           <wd:Student_Program_of_Study_Record_Status_Reference wd:Descriptor="In Progress">
+                              <wd:ID wd:type="WID">d8694c8e2f33100009872c816b440063</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_Status_ID">IN_PROGRESS</wd:ID>
+                           </wd:Student_Program_of_Study_Record_Status_Reference>
+                           <wd:Declare_Date>2021-08-15</wd:Declare_Date>
+                           <wd:Expected_Completion_Date>2022-08-09</wd:Expected_Completion_Date>
+                        </wd:Student_Program_of_Study_Record_Data>
+                        <wd:Student_Program_of_Study_Record_Data>
+                           <wd:Program_of_Study_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - Business Career Pathway">
+                              <wd:ID wd:type="WID">b5dd5f96a5768101e9452202d7af0001</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_ID">ACTIVE_STUDENT_PROGRAM_OF_STUDY_RECORD-3-707880</wd:ID>
+                           </wd:Program_of_Study_Record_Reference>
+                           <wd:Program_of_Study_Type_Reference wd:Descriptor="Concentration">
+                              <wd:ID wd:type="WID">42cffe9e9eb201337081acf16800164e</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_Type_ID">Concentration</wd:ID>
+                           </wd:Program_of_Study_Type_Reference>
+                           <wd:Program_of_Study_Reference wd:Descriptor="Business Career Pathway">
+                              <wd:ID wd:type="WID">910cb96c1e0b01a7c068d4fbde05c0b8</wd:ID>
+                              <wd:ID wd:type="Program_of_Study_ID">PROGRAM_OF_STUDY-3-457</wd:ID>
+                           </wd:Program_of_Study_Reference>
+                           <wd:Academic_Unit_Reference wd:Descriptor="Palm Beach State College">
+                              <wd:ID wd:type="WID">fba2b5c22541016d6a9095d81a54d104</wd:ID>
+                              <wd:ID wd:type="Academic_Unit_ID">PBSC_AU</wd:ID>
+                           </wd:Academic_Unit_Reference>
+                           <wd:Academic_Level_Reference wd:Descriptor="Undergraduate">
+                              <wd:ID wd:type="WID">42cffe9e9eb201fe754182e86800884d</wd:ID>
+                              <wd:ID wd:type="Academic_Level_ID">Undergraduate</wd:ID>
+                           </wd:Academic_Level_Reference>
+                           <wd:Program_of_Study_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Associate">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2013079ad6d0969008c50</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">Associates</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Program Category">
+                                    <wd:ID wd:type="WID">42cffe9e9eb2010f2cedf6f86800aa4e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-1</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="Post-Secondary Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec62601ceb4bb1a481601bb6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">PS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (PS)">
+                                    <wd:ID wd:type="WID">aca9c89ec6260189a1d819481601ba6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-5</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                              <wd:Program_Area_Subedit_Data>
+                                 <wd:Program_Area_Reference wd:Descriptor="High School Transcript Required">
+                                    <wd:ID wd:type="WID">aca9c89ec626017a65121b481601bd6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_ID">HS_Transcript_Required</wd:ID>
+                                 </wd:Program_Area_Reference>
+                                 <wd:Program_Area_Type_Reference wd:Descriptor="Transcript Required (HS)">
+                                    <wd:ID wd:type="WID">aca9c89ec62601872bec1a481601bc6e</wd:ID>
+                                    <wd:ID wd:type="Program_Area_Type_ID">PROGRAM_AREA_TYPE-6-4</wd:ID>
+                                 </wd:Program_Area_Type_Reference>
+                              </wd:Program_Area_Subedit_Data>
+                           </wd:Program_of_Study_Area_Subedit_Data>
+                           <wd:Student_Program_of_Study_Record_Status_Reference wd:Descriptor="In Progress">
+                              <wd:ID wd:type="WID">d8694c8e2f33100009872c816b440063</wd:ID>
+                              <wd:ID wd:type="Student_Program_of_Study_Record_Status_ID">IN_PROGRESS</wd:ID>
+                           </wd:Student_Program_of_Study_Record_Status_Reference>
+                           <wd:Declare_Date>2021-11-19</wd:Declare_Date>
+                           <wd:Expected_Completion_Date>2022-08-09</wd:Expected_Completion_Date>
+                        </wd:Student_Program_of_Study_Record_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - ENC 1101 - College Composition 1 - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">b9eae20dd6c481b53ec2283c52017433</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4197636</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="ENC 1101 - College Composition 1">
+                              <wd:ID wd:type="WID">42cffe9e9eb201d06c55c46172016a88</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_ENC1101_09/12/1930_ENC1101</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>3</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="ENC 1101-76 - College Composition 1">
+                                 <wd:ID wd:type="WID">0aede1f437a1017485a72e7f9c017c5c</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-362259</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-13T07:35:44.573-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Lecture">
+                                 <wd:ID wd:type="WID">adf67f69028010001731e69a013a2572</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Lecture</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - MAT 1033C - Intermediate Algebra - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">c71ab86e8ff481866af2bd3cb401ba5e</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4201182</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="MAT 1033C - Intermediate Algebra">
+                              <wd:ID wd:type="WID">42cffe9e9eb201060c26f769720198a2</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_MAT1033C_09/18/1939_MAT1033C</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>4</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="MAT 1033C-69 - Intermediate Algebra">
+                                 <wd:ID wd:type="WID">ee3317ba87d401211b25bab2c400fa13</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-365168</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-14T13:33:35.602-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Combination">
+                                 <wd:ID wd:type="WID">573c01a826b810000f0fee0804e5000b</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Combination</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - AMH 2020 - US History from 1865 to Present - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">0865271660a481bd4b3f1969b401855a</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4201384</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="AMH 2020 - US History from 1865 to Present">
+                              <wd:ID wd:type="WID">42cffe9e9eb201ace8c2e2f470011faf</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_AMH2020_01/29/1931_AMH2020</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>3</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="AMH 2020-1 - US History from 1865 to Present">
+                                 <wd:ID wd:type="WID">43cd6518270a01bf708b024abb00a00d</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-361545</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-14T13:36:02.381-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Lecture">
+                                 <wd:ID wd:type="WID">adf67f69028010001731e69a013a2572</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Lecture</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                        <wd:Registered_Registrations_Subedit_Data>
+                           <wd:Academic_Period_Record_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">080234cde824815710858be055011139</wd:ID>
+                              <wd:ID wd:type="Academic_Period_Record_ID">ACTIVE_ACADEMIC_PERIOD_RECORD-3-1714984</wd:ID>
+                           </wd:Academic_Period_Record_Reference>
+                           <wd:Course_Registration_Reference wd:Descriptor="Example Student - Palm Beach State College/Undergraduate (AS/AA) - 01/01/2021 - Active - MAR 2011 - Principles of Marketing - 2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">0865271660a4812be0d0e886b401945a</wd:ID>
+                              <wd:ID wd:type="Student_Course_Registration_ID">STUDENT_COURSE_REGISTRATION-3-4201385</wd:ID>
+                           </wd:Course_Registration_Reference>
+                           <wd:Academic_Period_Reference wd:Descriptor="2022 Spring Full Term (01/11/2022-05/06/2022)">
+                              <wd:ID wd:type="WID">bd29d282d401016e3427eb45bc013720</wd:ID>
+                              <wd:ID wd:type="Academic_Period_ID">Spring_Full_Term_2022_Session_1</wd:ID>
+                           </wd:Academic_Period_Reference>
+                           <wd:Course_Listing_Reference wd:Descriptor="MAR 2011 - Principles of Marketing">
+                              <wd:ID wd:type="WID">42cffe9e9eb2013d18994e697201c6a0</wd:ID>
+                              <wd:ID wd:type="Course_Listing_ID">Course_Listing_MAR2011_09/11/1944_MAR2011</wd:ID>
+                           </wd:Course_Listing_Reference>
+                           <wd:Units>3</wd:Units>
+                           <wd:Grading_Basis_Reference wd:Descriptor="Graded">
+                              <wd:ID wd:type="WID">4d5823468dff100012089c0963224583</wd:ID>
+                              <wd:ID wd:type="Student_Grading_Basis_ID">Graded</wd:ID>
+                           </wd:Grading_Basis_Reference>
+                           <wd:Student_Course_Registration_Record_Subedit_Data>
+                              <wd:Section_Listing_Reference wd:Descriptor="MAR 2011-1 - Principles of Marketing">
+                                 <wd:ID wd:type="WID">bc2b61f49ea3014ed1e5f5a56901c842</wd:ID>
+                                 <wd:ID wd:type="Section_Listing_ID">COURSE_SECTION-3-361217</wd:ID>
+                              </wd:Section_Listing_Reference>
+                              <wd:Registered_Date>2021-10-14T13:38:10.555-07:00</wd:Registered_Date>
+                              <wd:Instructional_Format_Reference wd:Descriptor="Lecture">
+                                 <wd:ID wd:type="WID">adf67f69028010001731e69a013a2572</wd:ID>
+                                 <wd:ID wd:type="Instructional_Format_ID">Lecture</wd:ID>
+                              </wd:Instructional_Format_Reference>
+                              <wd:Registration_Record_Status_Reference wd:Descriptor="Registered">
+                                 <wd:ID wd:type="WID">cb6902eac8a110002327d01ac59523b3</wd:ID>
+                                 <wd:ID wd:type="Registration_Record_Status_ID">REGISTERED</wd:ID>
+                              </wd:Registration_Record_Status_Reference>
+                           </wd:Student_Course_Registration_Record_Subedit_Data>
+                        </wd:Registered_Registrations_Subedit_Data>
+                     </wd:Academic_Record_for_Student_Data>
+                  </wd:Financial_Aid_Record_for_Student_Data>
+                  <wd:Do_Not_Purge_Settings_Data>
+                     <wd:Do_Not_Purge>0</wd:Do_Not_Purge>
+                  </wd:Do_Not_Purge_Settings_Data>
+               </wd:Student_Data>
+            </wd:Student>
+         </wd:Response_Data>
+      </wd:Get_Students_Response>
+   </env:Body>
+</env:Envelope>

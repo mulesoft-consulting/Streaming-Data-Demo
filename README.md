@@ -1,7 +1,7 @@
 # Streaming-Data-Demo
 
 This demo will show how mule apps can utilize streaming to process large files that
-may exceed allocated heap memory.  The demo takes a large xml file of students from an input
+may exceed allocated heap memory.  The demo takes a large json or xml file of students from an input
 folder and breaks out information about each student individually to an output folder.
 
 Streaming Documentation:
@@ -11,9 +11,7 @@ Streaming Documentation:
 Setup:
 
 You will need to modify the File Config element in the global.xml to whatever output/input
-folders you would like to use.  The file used in this demo can be found here:
-
-
+folders you would like to use.  The file used in this demo can be found in src/main/resources. (Example Student File.json)
 
 When running this demo locally, you can modify the runtime arguments to utilize less
 memory than the size of the test file.  This will demonstrate and prove the app is streaming.
